@@ -67,7 +67,7 @@ header('Content-Type: text/html; charset=UTF-8');
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
-<title>Tocco shop</title>
+<title>Tux shop</title>
 </head>
 <body>
 
@@ -75,13 +75,13 @@ header('Content-Type: text/html; charset=UTF-8');
       <div>
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="welcome.php">Home</a>
+            <a class="nav-link" href="welcome.php">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="login.php">Login</a>
+            <a class="nav-link" href="login.php">Acceder</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="about.html">Acerca dde Nosotros</a>
           </li>
          </ul>
       </div>
@@ -98,7 +98,7 @@ if($validate === false )
 
 <h3>Inicio de session<br>
 
-<hr>Tocco Loco 2021</hr>
+<hr>Tux Loco 2021</hr>
 </h3>
  
 <form action="login.php" method="POST" class="w-50">
@@ -124,6 +124,8 @@ else
  
  <?php 
  echo "Bienvenido " . $result['firstname'] . " " . $result['lastname'] ; 
+ echo "<hr>"
+ echo "IEZMQUd7VG9tYV9lbl9jdWVudGFfdHVfZXRpY2FfR05VX0xJTlVYfQo="
  ?>
  
  </p>

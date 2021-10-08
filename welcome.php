@@ -57,7 +57,7 @@ header('Content-Type: text/html; charset=UTF-8');
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
-<title> Tocco Shop</title>
+<title> Tux Shop</title>
 </head>
 <body>
 
@@ -65,13 +65,13 @@ header('Content-Type: text/html; charset=UTF-8');
       <div>
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="#">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="login.php">Login</a>
+            <a class="nav-link" href="login.php">Acceder</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="about.html">Acerca de nosotros</a>
           </li>
          </ul>
       </div>
@@ -80,14 +80,14 @@ header('Content-Type: text/html; charset=UTF-8');
 
   
   <div class="container-fluid">
-	<h3> Tocco Shop </h3>
-        <p class="h5">Tocco Loco</p>
+	<h3> Tux Shop </h3>
+        <p class="h5">Tux Loco</p>
         <br>
         <p class="lead">Tienda virtual donde puedes encontrar GifCards, mochilas, bolsos, accesorios, ropa y mucho mas.<br>Mira nuestros procductos con descuento.
         
 </p>
         <p>
-        Tocco loco！
+        Tux loco！
         
 </p>
   </div>
@@ -95,8 +95,8 @@ header('Content-Type: text/html; charset=UTF-8');
   
   <div class="container border">
   
-   <p class="font-weight-bold">Select a Category to see items on sale.<br>
-   <small>Tocco Loco</small>
+   <p class="font-weight-bold">Seleciona uno de nuestos productos.<br>
+   <small>Tux Loco</small>
    </p>
 
 <p>
